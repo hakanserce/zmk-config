@@ -1,0 +1,7 @@
+if SHIELD_SERCE42
+
+config ZMK_KEYBOARD_NAME
+    default "Serce42"
+
+endif
+
