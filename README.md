@@ -24,3 +24,20 @@ More details on building: https://zmk.dev/docs/development/local-toolchain/build
 ## Miryoku Layout
 
 Note that some keyboards (serce42, banice36) are built for use with the Miryoku layout in mind. If you are not planning to use Miryoku, you need to change the default layout and layers to make it more usable.
+
+Use https://github.com/hakanserce/miryoku_zmk GitHub actions to build the firmware with Miryoku layout.
+- Go to Actions
+- Select Build Inputs
+- Click on Run workflow
+- Provide the following input:
+  - "board" "nice_nano_v2"
+  - "shield" "serce42"/ or "banice36"
+  - "alphas" "QWERTY"
+  - "nav" "vi"
+  - "layers" "default"
+  - "mapping" "default"
+  - "custom_config" "default"
+  - "kconfig" "default"
+  - "branches" "default"
+  - "modules" "default"
+- When the build completes, the firmware will be available under artifacts
