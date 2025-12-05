@@ -1,7 +1,7 @@
 if SHIELD_SERCE42
 
 config ZMK_KEYBOARD_NAME
-    default "Serce42"
+    default "Banice36"
 
 if ZMK_DISPLAY
 
@@ -38,4 +38,3 @@ endchoice
 endif # LVGL
 
 endif
-
