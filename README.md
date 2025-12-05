@@ -1,4 +1,4 @@
-# Building shield
+8# Building shield
 ## Pre-requisites
 - Setup Local ZMK development environment
  - Native (on WSL, I use this): https://zmk.dev/docs/development/local-toolchain/setup/native
@@ -39,5 +39,5 @@ Use https://github.com/hakanserce/miryoku_zmk GitHub actions to build the firmwa
   - "custom_config" "default"
   - "kconfig" "default"
   - "branches" "default"
-  - "modules" "default"
+  - "modules" "hakanserce/zmk-config/master"
 - When the build completes, the firmware will be available under artifacts
