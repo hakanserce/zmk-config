@@ -20,3 +20,7 @@ west build -b nice_nano_v2 -- -DSHIELD=serce42 DZMK_EXTRA_MODULES="../../zmk-con
 Also check https://zmk.dev/docs/features/modules for more information about building external modules (such as this project).
 
 More details on building: https://zmk.dev/docs/development/local-toolchain/build-flash
+
+## Miryoku Layout
+
+Note that some keyboards (serce42, banice36) are built for use with the Miryoku layout in mind. If you are not planning to use Miryoku, you need to change the default layout and layers to make it more usable.
