@@ -10,10 +10,13 @@
 After we are done with this step, we should have a `zmk` folder, this zmk module (`zmk-config`) folder, west setup.
 
 ## Building a shiled (serce42 as an example)
+
 ```bash
 cd zmk # folder containing the zmk repository
 cd app
 west build -b nice_nano_v2 -- -DSHIELD=serce42 DZMK_EXTRA_MODULES="../../zmk-config/" -DZMK_CONFIG="../../zmk-config/config"
 ```
+
+Also check https://zmk.dev/docs/features/modules for more information about building external modules (such as this project).
 
 More details on building: https://zmk.dev/docs/development/local-toolchain/build-flash

@@ -3,9 +3,6 @@ build:
   # Folder containing a "CMakeLists.txt" (. = root)
   depends:
 
-  cmake: .
-  # Kconfig filepath
-  kconfig: Kconfig
   settings:
     # Folder containing a "boards" folder (. = root)
     board_root: .
