@@ -1,4 +1,4 @@
-if SHIELD_SERCE42
+if SHIELD_BANICE36
 
 config ZMK_KEYBOARD_NAME
     default "Banice36"

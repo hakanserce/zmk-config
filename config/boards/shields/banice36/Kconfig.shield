@@ -1,2 +1,2 @@
-config SHIELD_SERCE42
-    def_bool $(shields_list_contains,serce42)
+config SHIELD_BANICE36
+    def_bool $(shields_list_contains,banice36)
